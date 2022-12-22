@@ -1,7 +1,8 @@
 /*citation*/
-pre{
+pre {
   text-decoration: none;
 }
+
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
@@ -1259,6 +1260,7 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
+    display: contents;
   }
 
   .col-md-auto {
@@ -1292,6 +1294,8 @@ pre code {
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
+    display: contents;
+
   }
 
   .col-md-4 {
@@ -12979,7 +12983,11 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #fbfcfc;
+  background-image: url(../imgs/csm_PanneauxSolaires.H.DL_DG_froutven-ikea-5_0fd330f9f4.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 section.py-sm,
